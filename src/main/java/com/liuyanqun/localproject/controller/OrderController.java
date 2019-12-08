@@ -22,7 +22,7 @@ public class OrderController {
     @Autowired
     private OrderServiceV2Impl orderServiceV2;
 
-    @RequestMapping("/getOrderType")
+    @RequestMapping("/getOrderType/type")
     public String getOrderType(){
         OrderDTO dto = new OrderDTO();
         dto.setCode("11");
